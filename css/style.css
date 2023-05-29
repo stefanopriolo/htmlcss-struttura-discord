@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav_container {
+    display: flex;
+    width: 900px;
+    min-height: 50px;
+    margin: 0 auto;
+    background-color:#ADD8E7 ;
+    justify-content: center;
+}
+
+.logo {
+    width: 50px;
+    min-height: 50px;
+    background-color:#DAA520 ;
+}
+
+.link{
+    flex-grow: 1;
+    max-width: 200px;
+    min-height: 50px;
+    background-color:#DAA520 ;
+}
+
+.login {
+    width: 50px;
+    min-height: 50px;
+    background-color:#DAA520 ;
+}
