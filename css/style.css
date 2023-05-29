@@ -11,23 +11,38 @@
     margin: 0 auto;
     background-color:#ADD8E7 ;
     justify-content: center;
+    align-items: center;
 }
 
 .logo {
-    width: 50px;
-    min-height: 50px;
+    width: 100px;
+    height: 30px;
     background-color:#DAA520 ;
+    border: 1px dashed black;
+    
 }
 
+
 .link{
-    flex-grow: 1;
-    max-width: 200px;
-    min-height: 50px;
+    width: 300px;
+    height: 30px;
     background-color:#DAA520 ;
+    border: 1px dashed black;
 }
 
 .login {
-    width: 50px;
-    min-height: 50px;
+    width: 100px;
+    height: 30px;
     background-color:#DAA520 ;
+    border: 1px dashed black;
+}
+
+.main_container {
+    display: flex;
+    width: 900px;
+    min-height: 300px;
+    margin: 0 auto;
+    background-color:#00208B ;
+    justify-content: center;
+    align-items: center;
 }
